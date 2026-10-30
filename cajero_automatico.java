@@ -26,6 +26,8 @@ public class cajero_automatico {
                     if(deposito > 0){
                         saldo = saldo + deposito;
                         System.out.println("Tu nuevo saldo es de: "+ saldo);
+                    }else{
+                        System.out.println("No puedes ingresar numeros negativos.");
                     }
                     break;
                 case 3:
@@ -36,11 +38,11 @@ public class cajero_automatico {
                         saldo = saldo - retiro;
                         System.out.println("Tu nuevo saldo es de: "+ saldo);
                     }else{
-                        System.out.println("Saldo insuficiente");
+                        System.out.println("Saldo insuficiente.");
                     }
                     break;
                 case 4:
-                    System.out.println("Saliendo");
+                    System.out.println("Saliendo.");
              }
         }while(opcion != 4);
     entrada.close();
