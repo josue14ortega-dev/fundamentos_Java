@@ -31,10 +31,10 @@ public class estadistica_numeros{
         System.out.println("Ceros: " + ceros);
         System.out.println("Suma: " + suma);
         System.out.println("Promedio: "+ suma/cantidad_numeros);
-        entrada.close();
+        
     }else{
         System.out.println("Debe ser un numero mayor 0");
-    }
+    }entrada.close();
         
         
     }
